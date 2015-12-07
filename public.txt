@@ -1,0 +1,10 @@
+这是一个公共文件，大家请随意蹂躏该文件，在里面进行各种更改与实验
+
+下面贴一段代码：
+
+char *str = "Hello JiangHao!";
+
+printf("%s\n",str);
+
+这样代码就写完了
+		-- coding by JiangHao

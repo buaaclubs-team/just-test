@@ -1,0 +1,14 @@
+我是江昊
+这是我的测试文件
+让我们在just-test这个项目中尽情玩耍，尝试通过使用github提供的服务实现团队代码协作吧
+下面写一些随便的代码
+
+int a = 3;
+int i = 0;
+
+for (i=0;i<a;i++){
+	printf("hello world! I love you, RiverSky\n");
+}
+printf("重要的事情说三遍");
+
+这样我的代码就写完了，之后会增加代码，这中间与github代码的同步与合并等操作会得到学习
