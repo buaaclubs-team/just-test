@@ -8,3 +8,5 @@ printf("%s\n",str);
 
 这样代码就写完了
 		-- coding by JiangHao
+		
+Testing
