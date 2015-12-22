@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">-->
+
+  <!-- Site Properities -->
+  <title>userInternalLetter</title>
+
+  <!--<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">-->
+
+  <link rel="stylesheet" type="text/css" href="../dist/semantic.css" />
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+  <script src="../dist/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="userDefault.css" />
+  <script>
+  	function search()
+  	{
+  		alert("该功能还在开发中");
+  	}
+
+  	$(document).ready(function(){
+	    $('.ui.accordion').accordion({
+	    	selector: {
+	    		trigger: '.title .icon'
+	    	}
+	    });
+	});
+  </script>
+</head>
+
+<body>
+	<div>
+		<div id="gy_masthead">
+				<!-- <div class="ui fluid catagory search" style="margin-top: 8px; margin-right: 155px; float:right;">
+					<div class="ui icon input" style="width: 260px;">
+						<input class="prompt" type="text" placeholder="Please input~~~" />
+						<i class="search icon"></i>
+					</div>
+					<div class="results"></div>
+				</div> -->
+				<!-- <div id="logo"><img src="images/Buaa.gif" height="44px" width="44px"/></div> -->
+				<p id="name">BuaaClubs</p>
+				<div class="ui action left icon input" style="margin-top: 8px; margin-left: 850px;">
+					<i class="search icon"></i>
+					<input type="text" placeholder="Search~~~" />
+					<div class="ui inverted yellow button" onclick = "search()">Search</div>
+				</div>
+		</div>
+
+		<div id="middle">
+			<div class="blank"></div>
+			<div id="container">
+
+				<div id="logContainer">
+					<div class="cardContainer">
+						<div class="ui yellow card">
+							<!-- <div class="image" style="padding 10px;">
+								<img src="images/Buaa.gif">
+							</div> -->
+							<div class="content">
+								<img class="left floated mini ui image" src="images/Buaa.gif">
+								<a class="header"> 江 昊 </a>
+								<!-- <div class="meta">
+									<span class="date">2005年成立</span>
+								</div> -->
+							</div>
+							<div class="extra content">
+								<a><i class="child icon"></i> 已 参 加 10 个 活 动 </a>
+							</div>
+							<div class="extra content">
+								<a><i class="smile icon"></i> 已 参 加 3 个 社 团 </a>
+							</div>
+						</div>
+					</div>
+
+					<div class="buttonContainer" style="margin-top: 15px;">
+						<div class="buttonContainer" style="margin-top: 15px;">
+						<div class="ui vertical labeled icon buttons" style="width: 100%;">
+							<div class="ui teal labeled icon button">  活 动 广 场 
+								<i class="announcement icon"></i>
+							</div>
+							<div class="ui teal labeled icon button"> 社 团 荟 萃
+								 <i class="users icon"></i>
+							</div>
+							<div class="ui teal button"> 我 的 社 团 <i class="users icon"></i></div>
+							<div class="ui teal button"> 已 报 活 动 <i class="smile icon"></i></div>
+							<div class="ui teal button"  style="background-color:#009d95;"> 站 内 信 <i class="file text outline icon"></i></div>
+							<div class="ui teal button"> 设 置 <i class="settings icon"></i></div>
+						</div>
+					</div>
+					</div>
+				</div>
+
+
+				<div id="news">
+					<div class="newsContainer">
+
+						<button class="ui small blue button" style="margin-left: 350px;">删除</button>
+						<button class="ui small blue button" style="margin-left: 10px;">举报</button>
+						<button class="ui small blue button" style="margin-left: 10px;">全部标记为已读</button>
+
+						<div class="ui styled accordion" style="width: 700px; margin-top: 20px;">
+						  <div class="title">
+						  	<i class="dropdown icon"></i>
+						  			<div class="ui feed" style="display:inline-block;">
+							  			<div class="event">
+							  				<div class="label"><img src="images/Ali.jpeg"/></div>
+							  				<div class="content">
+							  					<div class="summary">
+							  						<a class="user"> 凌峰社</a> 给你发了一条通知 <div class="date"> 1小时前 </div>
+							  					</div>
+							  				</div>
+							  				<div class="ui checkbox" style="margin-left:320px;"><input type="checkbox"><label> </label></div>
+							  			</div>
+						  			</div>
+						  </div>
+						  <div class="content">
+						    <p>明天十点集合哦~~</p>
+						  </div>
+
+						  <div class="title">
+						  	<i class="dropdown icon"></i>
+						  			<div class="ui feed" style="display:inline-block;">
+							  			<div class="event">
+							  				<div class="label"><img src="images/Ali.jpeg"/></div>
+							  				<div class="content">
+							  					<div class="summary">
+							  						<a class="user"> 凌峰社</a> 给你发了一条通知 <div class="date"> 1小时前 </div>
+							  					</div>
+							  				</div>
+							  				<div class="ui checkbox" style="margin-left:320px;"><input type="checkbox"><label> </label></div>
+							  			</div>
+						  			</div>
+						  </div>
+						  <div class="content">
+						    <p>凌峰社被评为五星级社团！！蟹蟹大家的努力~~~</p>
+						  </div>
+
+						   <div class="title">
+						  	<i class="dropdown icon"></i>
+						  			<div class="ui feed" style="display:inline-block;">
+							  			<div class="event">
+							  				<div class="label"><img src="images/Ali.jpeg"/></div>
+							  				<div class="content">
+							  					<div class="summary">
+							  						<a class="user"> 凌峰社</a> 给你发了一条通知 <div class="date"> 1小时前 </div>
+							  					</div>
+							  				</div>
+							  				<div class="ui checkbox" style="margin-left:320px;"><input type="checkbox"><label> </label></div>
+							  			</div>
+						  			</div>
+						  </div>
+						  <div class="content">
+						    <p>凌峰社被评为五星级社团！！蟹蟹大家的努力~~~</p>
+						  </div>
+
+						  <div class="title">
+						  	<i class="dropdown icon"></i>
+						  			<div class="ui feed" style="display:inline-block;">
+							  			<div class="event">
+							  				<div class="label"><img src="images/Ali.jpeg"/></div>
+							  				<div class="content">
+							  					<div class="summary">
+							  						<a class="user"> 凌峰社</a> 给你发了一条通知 <div class="date"> 1小时前 </div>
+							  					</div>
+							  				</div>
+							  				<div class="ui checkbox" style="margin-left:320px;"><input type="checkbox"><label> </label></div>
+							  			</div>
+						  			</div>
+						  </div>
+						  <div class="content">
+						    <p>凌峰社被评为五星级社团！！蟹蟹大家的努力~~~</p>
+						  </div>
+
+						  <div class="title">
+						  	<i class="dropdown icon"></i>
+						  			<div class="ui feed" style="display:inline-block;">
+							  			<div class="event">
+							  				<div class="label"><img src="images/Ali.jpeg"/></div>
+							  				<div class="content">
+							  					<div class="summary">
+							  						<a class="user"> 凌峰社</a> 给你发了一条通知 <div class="date"> 1小时前 </div>
+							  					</div>
+							  				</div>
+							  				<div class="ui checkbox" style="margin-left:320px;"><input type="checkbox"><label> </label></div>
+							  			</div>
+						  			</div>
+						  </div>
+						  <div class="content">
+						    <p>凌峰社被评为五星级社团！！蟹蟹大家的努力~~~</p>
+						  </div>
+						  
+						</div>
+						
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div id="foot">
+				<div class="footFont" style="margin-left:250px; margin-top:10px;">
+					<div style="margin-top:10px; display:inline-block;"> 
+						<p style="color: white; font-size: 1.3em;">About us</p> 
+						<p><i class="qq icon"></i>QQ: 576156848</p>
+						<p><i class="mail icon"></i>Email: buaaclubs@163.com</p>
+					</div>
+					<div style="margin-top:10px; margin-left: 200px; display:inline-block;"> 
+						<p style="color: white; font-size: 1.3em;">Friendly Link</p> 
+						<p>XueBa<a href="http://115.28.39.28/"> http://115.28.39.28/</a></p>
+						<p>Phylab<a href="http://121.42.204.94/"> http://121.42.204.94/</a></p>
+					</div>
+
+					<div style="margin-top:10px; margin-left: 250px; display:inline-block;"> 
+						<p style="color: #e0e0e0; font-size: 2.7em; font-family: cursive;">BuaaClubs</p>
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+
+</html>
